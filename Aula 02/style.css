@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #323730;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+
+a{
+    color: #48c5e6;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 68px 0;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 37;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #3F3D56;
+}
+
+label{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 12px;
+    margin-bottom: 22px;
+    border: 1px solid #ABB3A8;
+}
+
+select{
+    padding: 12px;
+    margin-bottom: 22px;
+}
+
+.box01{
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+}
+
+.box-data{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.box-pais{
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    margin-left: 18px;
+}
+
+.box-column{
+    display: flex;
+    width: 396px;
+}
+
+.box03{
+    width: 396px;
+}
+
+.box03 label{
+    display: flex;
+    flex-direction: column;
+}
+
+.box03 input{
+    margin-right: 6px;
+}
+
+.radio-option{
+    display: inline-block !important;
+}
+
+.radio-genre{
+    float: left;
+    width: 33%;
+}
+
+.box-checkbox{
+    width: 396px;
+    display: flex;
+    flex-direction: initial;
+}
+
+#check-terms{
+    margin-right: 10px;
+}
+
+button{
+    background: #3F3D56;
+    border-radius: 5px;
+    width: 396px;
+    padding: 14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin: 28px 0;
+    font-size: 16px;
+    border: none;
+}
