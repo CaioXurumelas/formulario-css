@@ -1,0 +1,59 @@
+<head>
+  <title>Aula 02 - Formulário</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <section class="container">
+    <form class="form">
+      <h1 class="title">Faça seu login</h1>
+
+      <div class="box">
+        <label class="label-field" for="email-field">E-mail</label>
+        <input
+          id="email-field"
+          class="field-input"
+          type="text"
+          placeholder="Digite seu e-mail"
+        />
+      </div>
+
+      <div class="box">
+        <label class="label-field" for="password-field">Senha</label>
+        <input
+          id="password-field"
+          class="field-input"
+          type="password"
+          placeholder="Digite sua senha"
+        />
+      </div>
+
+      <div class="double-box">
+        <div class="terms space-between">
+          <input type="checkbox" class="checkbox-field" />
+          <p>
+            Mantenha-me conectado
+          </p>
+        </div>
+        <div class="terms">
+            <p>
+              <a href="#">Esqueci minha senha</a>
+            </p>
+          </div>
+      </div>
+
+      <button class="button">Entrar</button>
+
+      <p class="account">
+        Ainda não tem uma conta? <a href="#">Cadastre-se</a>
+      </p>
+    </form>
+  </section>
+</body>
